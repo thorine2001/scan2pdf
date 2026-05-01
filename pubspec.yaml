@@ -1,0 +1,63 @@
+name: scan2pdf
+description: "Scan documents, enhance, convert to PDF and share — fast and lightweight."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State management
+  provider: ^6.1.2
+
+  # Camera
+  camera: ^0.11.1
+  image_picker: ^1.1.2
+
+  # Image processing
+  image: ^4.5.3
+
+  # PDF generation
+  pdf: ^3.11.2
+
+  # File system
+  path_provider: ^2.1.5
+  path: ^1.9.1
+
+  # Sharing
+  share_plus: ^10.1.4
+
+  # Permissions
+  permission_handler: ^11.4.0
+
+  # UUID for document IDs
+  uuid: ^4.5.1
+
+  # Local storage for preferences
+  shared_preferences: ^2.3.5
+
+  # File picker for importing images
+  file_picker: ^8.1.7
+
+  # Open files externally
+  open_filex: ^4.6.0
+
+  # Printing / PDF viewing
+  printing: ^5.14.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/icons/
